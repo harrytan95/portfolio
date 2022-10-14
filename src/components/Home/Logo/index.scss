@@ -2,7 +2,7 @@
     z-index: 0;
     width: 500px;
     height: 500px;
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     top: 0;
     right: 15%;
@@ -25,9 +25,10 @@
       left: 0;
       margin: auto;
       width: 100%;
-      opacity: 0;
+      opacity: 1;
       transform: rotateZ(-10deg) !important;
       z-index: 1;
+      animation: fadeIn 1s 2s backwards;
     }
   }
   
