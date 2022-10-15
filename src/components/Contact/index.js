@@ -25,7 +25,7 @@ const Contact = () => {
         'service_y2bvrbi',
         'template_dkbzb32',
         refForm.current,
-        'NuGMG8lkdhiXIs8yu'
+        process.env.REACT_APP_EMAILJS_TOKEN
       )
       .then(
         () => {
